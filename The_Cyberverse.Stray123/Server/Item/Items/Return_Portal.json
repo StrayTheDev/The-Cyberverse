@@ -58,31 +58,5 @@
       -13.5
     ]
   },
-  "Recipe": {
-    "Input": [
-      {
-        "ItemId": "Furniture_Construction_Sign",
-        "Quantity": 5
-      },
-      {
-        "ItemId": "Rock_Gem_Emerald",
-        "Quantity": 1
-      },
-      {
-        "ItemId": "Ingredient_Bar_Iron",
-        "Quantity": 100
-      }
-    ],
-    "BenchRequirement": [
-      {
-        "Id": "Arcanebench",
-        "Categories": [
-          "Arcane_Portals"
-        ]
-      }
-    ],
-    "TimeSeconds": 1,
-    "RequiredMemoriesLevel": 6
-  },
   "MaxStack": 1
 }
