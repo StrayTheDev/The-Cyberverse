@@ -1,0 +1,81 @@
+{
+  "ItemLevel": 10,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/Digital_Bridge.png",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Rock_Stone",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Stone",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "ItemId": "Rock_Stone_Cyberverse"
+      }
+    },
+    "Textures": [
+      {
+        "Weight": 200,
+        "All": "BlockTextures/bridge.png",
+        "Up": "BlockTextures/bridge_top.png"
+      }
+    ],
+    "ParticleColor": "#0dff00",
+    "BlockSoundSetId": "Metal",
+    "Aliases": [
+      "stone",
+      "stone00"
+    ],
+    "BlockBreakingDecalId": "Breaking_Decals_Rock",
+    "Interactions": {
+      "Collision": {
+        "Interactions": [
+          {
+            "Type": "ChangeBlock",
+            "Changes": {
+              "Rock_Stone_Cyberverse": "Rock_Stone_Cyberverse_Glitched"
+            }
+          }
+        ]
+      }
+    },
+    "Particles": [
+      {
+        "SystemId": "Bridge",
+        "DetachedFromModel": false,
+        "PositionOffset": {
+          "Y": 0.5
+        }
+      }
+    ],
+    "CubeShadingMode": "Flat",
+    "Opacity": "Solid",
+    "RequiresAlphaBlending": true,
+    "BlockParticleSetId": "Crystal"
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "IconProperties": {
+    "Scale": 0.6,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -29
+    ]
+  },
+  "TranslationProperties": {
+    "Name": "Digital Bridge"
+  }
+}

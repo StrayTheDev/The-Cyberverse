@@ -1,0 +1,11 @@
+{
+  "Container": {
+    "Type": "Single",
+    "Item": {
+      "ItemId": "Errore",
+      "QuantityMin": 1,
+      "QuantityMax": 2
+    },
+    "Weight": 1
+  }
+}

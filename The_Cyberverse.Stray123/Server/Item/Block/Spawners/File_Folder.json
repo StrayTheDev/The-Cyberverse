@@ -1,0 +1,16 @@
+{
+  "Entries": [
+    {
+      "Name": "File_Folder",
+      "RotationMode": "Inherit",
+      "Components": {
+        "Components": {
+          "ItemContainerBlock": {
+            "Droplist": "Cyberverse_Loot_Generic"
+          }
+        }
+      },
+      "Weight": 1
+    }
+  ]
+}

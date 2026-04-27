@@ -1,0 +1,50 @@
+{
+  "TranslationProperties": {
+    "Name": "Glowing Billboard"
+  },
+  "Icon": "Icons/ItemsGenerated/Billboard_Glowing.png",
+  "Categories": [
+    "Blocks.Ores"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "ItemId": "Billboard_Glowing"
+      }
+    },
+    "Textures": [
+      {
+        "Weight": 1,
+        "All": "BlockTextures/Rock_Stone_Cyberverse_3.png"
+      }
+    ],
+    "BlockSoundSetId": "Ore",
+    "Light": {
+      "Color": "#6e6",
+      "Radius": 15
+    },
+    "Opacity": "Transparent",
+    "Tint": [
+      "#008c00"
+    ],
+    "CubeShadingMode": "Fullbright"
+  },
+  "PlayerAnimationsId": "Block",
+  "MaxStack": 100,
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

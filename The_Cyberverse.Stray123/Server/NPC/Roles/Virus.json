@@ -1,0 +1,16 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Virus",
+  "Modify": {
+    "MaxHealth": 60,
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    }
+  },
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "Virus",
+      "Description": "Translation key for NPC name display"
+    }
+  }
+}

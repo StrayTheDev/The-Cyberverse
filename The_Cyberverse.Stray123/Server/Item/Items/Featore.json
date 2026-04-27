@@ -1,0 +1,51 @@
+{
+  "TranslationProperties": {
+    "Name": "Featore Ingot"
+  },
+  "Categories": [
+    "Blocks.Ores"
+  ],
+  "SubCategory": "Ore",
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 1,
+        "ItemId": "Errore"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Processing",
+        "Id": "Furnace"
+      }
+    ],
+    "TimeSeconds": 0.1
+  },
+  "Icon": "Icons/ItemsGenerated/Featore.png",
+  "Model": "Resources/Materials/Ingot.blockymodel",
+  "ItemLevel": 10,
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 1.2,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -4
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ore"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "MaxStack": 25,
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "DropOnDeath": true
+}

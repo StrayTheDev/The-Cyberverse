@@ -1,0 +1,19 @@
+{
+  "Music": {
+    "Tracks": [
+      "Music/cyberverse_glitch.ogg"
+    ],
+    "Volume": 10
+  },
+  "AudioCategory": "AudioCat_Music",
+  "Priority": 120,
+  "Conditions": {
+    "EnvironmentIds": [
+      "Cyberverse",
+      "Firewall"
+    ],
+    "WeatherIds": [
+      "Cyberverse_Storm"
+    ]
+  }
+}

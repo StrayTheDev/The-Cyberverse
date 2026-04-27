@@ -1,0 +1,18 @@
+{
+  "Music": {
+    "Tracks": [
+      "Music/cyberverse.ogg",
+      "Music/cyberverse_ambient.ogg",
+      "Music/cyberverse_happy.ogg"
+    ],
+    "Volume": 5
+  },
+  "AudioCategory": "AudioCat_Music",
+  "Priority": 60,
+  "Conditions": {
+    "EnvironmentIds": [
+      "Cyberverse",
+      "Firewall"
+    ]
+  }
+}

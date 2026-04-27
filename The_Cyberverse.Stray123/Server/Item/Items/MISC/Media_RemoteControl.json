@@ -1,0 +1,77 @@
+{
+  "TranslationProperties": {
+    "Name": "Master Remote"
+  },
+  "Icon": "Icons/ItemsGenerated/Media_RemoteControl.png",
+  "Model": "Items/Remote_Controller.blockymodel",
+  "Texture": "Items/Remote_Controller_Texture.png",
+  "PlayerAnimationsId": "Torch",
+  "IconProperties": {
+    "Scale": 0.83,
+    "Translation": [
+      3.7,
+      -10.1
+    ],
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ]
+  },
+  "InteractionConfig": {
+    "UseDistance": {
+      "Adventure": 128,
+      "Creative": 128
+    },
+    "AllEntities": true
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Featore",
+        "Quantity": 50
+      },
+      {
+        "ItemId": "Spaghetti_Code",
+        "Quantity": 25
+      },
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 25
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Arcanebench",
+        "Categories": [
+          "Arcane_Misc"
+        ]
+      }
+    ]
+  },
+  "Interactions": {
+    "Held": {
+      "Interactions": [
+        {
+          "Type": "RunOnBlockTypes",
+          "MaxCount": 127,
+          "Range": 4,
+          "Interactions": {
+            "Interactions": [
+              {
+                "Type": "ChangeState",
+                "Changes": {
+                  "default": "Off"
+                },
+                "UpdateBlockState": true
+              }
+            ]
+          },
+          "BlockSets": [
+            "Firewall"
+          ]
+        }
+      ]
+    }
+  }
+}

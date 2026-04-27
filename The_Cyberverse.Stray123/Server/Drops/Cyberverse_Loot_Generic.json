@@ -1,0 +1,49 @@
+{
+  "Container": {
+    "Type": "Choice",
+    "RollsMin": 2,
+    "RollsMax": 7,
+    "Containers": [
+      {
+        "Type": "Single",
+        "Item": {
+          "QuantityMin": 1,
+          "QuantityMax": 5,
+          "ItemId": "Spaghetti_Code"
+        },
+        "Weight": 5
+      },
+      {
+        "Type": "Choice",
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Errore",
+              "QuantityMin": 0,
+              "QuantityMax": 2
+            }
+          },
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Featore",
+              "QuantityMin": 0,
+              "QuantityMax": 2
+            }
+          }
+        ],
+        "Weight": 2
+      },
+      {
+        "Type": "Single",
+        "Weight": 1,
+        "Item": {
+          "ItemId": "Binary_Emitter",
+          "QuantityMin": 0,
+          "QuantityMax": 1
+        }
+      }
+    ]
+  }
+}

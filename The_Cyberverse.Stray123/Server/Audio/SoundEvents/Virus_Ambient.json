@@ -1,0 +1,18 @@
+{
+  "Layers": [
+    {
+      "RandomSettings": {
+        "MinVolume": -1.6,
+        "MaxVolume": 0.36,
+        "MinPitch": -0.672,
+        "MaxPitch": 0.384
+      },
+      "Files": [
+        "Sounds/NPC/noise.ogg",
+        "Sounds/NPC/death.ogg",
+        "Sounds/NPC/block_break.ogg",
+        "Sounds/NPC/glitch_effect.ogg"
+      ]
+    }
+  ]
+}

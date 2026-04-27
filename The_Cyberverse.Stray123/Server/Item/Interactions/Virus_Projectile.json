@@ -1,0 +1,8 @@
+{
+  "Type": "Projectile",
+  "RunTime": 0.5,
+  "Config": "Projectile_Config_Virus_Infection",
+  "Tags": {
+    "AimingReference": []
+  }
+}

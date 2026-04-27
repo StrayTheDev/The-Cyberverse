@@ -1,0 +1,9 @@
+{
+  "SoundEvents": {
+    "Walk": "SFX_Metal_Walk",
+    "Break": "Glitch_Destroy",
+    "Hit": "SFX_Metal_Hit",
+    "Land": "SFX_Metal_Land",
+    "Build": "SFX_Metal_Build"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "TranslationProperties": {
+    "Name": "File Folder"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Furniture.Containers"
+  ],
+  "Set": "Furniture_Ancient",
+  "Icon": "Icons/ItemsGenerated/File_Folder.png",
+  "BlockType": {
+    "BlockParticleSetId": "Wood",
+    "BlockSoundSetId": "Wood",
+    "CustomModel": "Blocks/File_Folder.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/File_Folder.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {
+      "IsUsable": true
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods",
+        "Quantity": 0
+      }
+    },
+    "Material": "Empty",
+    "Opacity": "Transparent",
+    "ParticleColor": "#4e462c",
+    "BlockEntity": {
+      "Components": {
+        "ItemContainerBlock": {
+          "Capacity": 9,
+          "Droplist": "Cyberverse_Loot_Generic"
+        }
+      }
+    },
+    "VariantRotation": "NESW",
+    "InteractionHint": "server.interactionHints.openDoor",
+    "State": {
+      "Definitions": {
+        "open": {
+          "CustomModelAnimation": "Blocks/Animations/open.blockyanim",
+          "CustomModelTexture": [
+            {
+              "Texture": "BlockTextures/File_Folder.png"
+            }
+          ],
+          "DrawType": "Model",
+          "CustomModel": "Blocks/File_Folder.blockymodel"
+        }
+      }
+    },
+    "RotationYawPlacementOffset": "OneEighty",
+    "Interactions": {
+      "Use": "File_Folder_Open"
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Ancient"
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.7,
+    "Rotation": [
+      357,
+      222,
+      355
+    ],
+    "Translation": [
+      0,
+      -18
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "ItemLevel": 8,
+  "MaxStack": 25,
+  "Model": "Blocks/File_Folder.blockymodel",
+  "Texture": "BlockTextures/File_Folder.png"
+}

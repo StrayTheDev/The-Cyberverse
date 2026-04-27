@@ -1,0 +1,58 @@
+{
+  "TranslationProperties": {
+    "Name": "Memory Leaker"
+  },
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "BlockType": {
+    "Material": "Empty",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Items/Hypixel/Event_Decoration/Winter Holiday_Props/WinterHoliday_TreeTop_Snowflake.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Weight": 1,
+        "Texture": "BlockTextures/Spaghetti_Code.png"
+      }
+    ],
+    "Group": "Props",
+    "Gathering": {
+      "Soft": {}
+    },
+    "BlockParticleSetId": "Crystal",
+    "ParticleColor": "#00ff00",
+    "BlockSoundSetId": "Glass",
+    "HitboxType": "Beam",
+    "Particles": [
+      {
+        "SystemId": "BinarySmall",
+        "Color": "#00ff00"
+      }
+    ]
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 1.1,
+    "Rotation": [
+      0,
+      0,
+      20
+    ],
+    "Translation": [
+      3,
+      -11
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ]
+  },
+  "Scale": 1.0,
+  "Icon": "Icons/ItemsGenerated/Binary_Emitter.png"
+}

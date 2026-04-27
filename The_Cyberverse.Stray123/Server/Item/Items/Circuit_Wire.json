@@ -1,0 +1,54 @@
+{
+  "TranslationProperties": {
+    "Name": "Wire"
+  },
+  "Icon": "Icons/ItemsGenerated/Circuit_Wire.png",
+  "Tags": {
+    "Family": [
+      "Gold"
+    ],
+    "Type": [
+      "Rock"
+    ]
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Rock_Gold_Brick"
+    }
+  ],
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Parent": "Rock_Gold_Brick",
+  "BlockType": {
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "BlockParticleSetId": "Metal",
+    "Textures": [
+      {
+        "All": "BlockTextures/Rock_Stone_Cyberverse_3.png",
+        "Weight": 1
+      }
+    ],
+    "BlockSoundSetId": "Metal",
+    "ParticleColor": "#e1e1e1",
+    "Particles": [
+      {
+        "SystemId": "Spark",
+        "DetachedFromModel": false
+      }
+    ]
+  }
+}

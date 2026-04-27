@@ -1,0 +1,19 @@
+{
+  "NPCs": [
+    {
+      "Id": "Virus",
+      "Weight": 1,
+      "Flock": {
+        "Type": "Default",
+        "MaxGrowSize": 5,
+        "Size": [
+          1,
+          2
+        ]
+      }
+    }
+  ],
+  "Environments": [
+    "Cyberverse"
+  ]
+}

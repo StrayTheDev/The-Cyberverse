@@ -1,0 +1,71 @@
+{
+  "ItemLevel": 10,
+  "MaxStack": 100,
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Rock_Stone",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Stone",
+    "BlockParticleSetId": "Ore",
+    "Textures": [
+      {
+        "Weight": 200,
+        "All": "BlockTextures/scifi_brick.png"
+      }
+    ],
+    "ParticleColor": "#000000",
+    "BlockSoundSetId": "Metal",
+    "Aliases": [
+      "stone",
+      "stone00"
+    ],
+    "BlockBreakingDecalId": "Breaking_Decals_Rock",
+    "CubeShadingMode": "Reflective",
+    "Interactions": {
+      "Collision": {
+        "Interactions": [
+          {
+            "Type": "ChangeBlock",
+            "Changes": {
+              "Rock_Stone_Cyberverse": "Rock_Stone_Cyberverse_Glitched"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Rock"
+    },
+    {
+      "Id": "Rock_Stone"
+    }
+  ],
+  "Tags": {
+    "Type": [
+      "Rock"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "TranslationProperties": {
+    "Name": "Cyberstone Brick"
+  },
+  "Icon": "Icons/ItemsGenerated/Neon_Bricks.png"
+}

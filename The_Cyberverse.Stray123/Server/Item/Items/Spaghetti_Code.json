@@ -1,0 +1,36 @@
+{
+  "TranslationProperties": {
+    "Name": "Spaghetti Code"
+  },
+  "Parent": "Plant_Seaweed_Grass_Stack",
+  "Icon": "Icons/ItemsGenerated/Spaghetti_Code.png",
+  "BlockType": {
+    "CustomModel": "Blocks/Foliage/Plants/Cross_Seaweed.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Spaghetti.png",
+        "Weight": 1
+      }
+    ],
+    "ParticleColor": "#ffde2f"
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "FuelQuality": 4,
+  "ResourceTypes": [
+    {
+      "Id": "Fuel",
+      "Quantity": 1
+    }
+  ]
+}

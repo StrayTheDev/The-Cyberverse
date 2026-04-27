@@ -1,0 +1,16 @@
+{
+  "Interactions": [
+    {
+      "Type": "ChangeState",
+      "UpdateBlockState": true,
+      "Changes": {
+        "default": "open",
+        "open": "open"
+      },
+      "Next": "Open_Container",
+      "Effects": {
+        "WorldSoundEventId": "File_Folder_Open"
+      }
+    }
+  ]
+}

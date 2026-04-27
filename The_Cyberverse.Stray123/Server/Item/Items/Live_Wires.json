@@ -1,0 +1,93 @@
+{
+  "TranslationProperties": {
+    "Name": "Live Wires"
+  },
+  "BlockType": {
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Tinkering/Traps/Spikes.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Live_Wires.png",
+        "Weight": 1
+      }
+    ],
+    "Flags": {},
+    "RandomRotation": "YawStep90",
+    "HitboxType": "Block_Three_Quarter",
+    "BlockParticleSetId": "Tar",
+    "BlockSoundSetId": "Metal",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Interactions": {
+      "Collision": {
+        "Cooldown": {
+          "Id": "SlowEffect",
+          "Cooldown": 1
+        },
+        "Interactions": [
+          {
+            "Type": "Condition",
+            "RequiredGameMode": "Adventure",
+            "Next": {
+              "Type": "ApplyEffect",
+              "EffectId": {
+                "Locale": "spikes",
+                "Duration": 0.1,
+                "OverlapBehavior": "Overwrite",
+                "DamageCalculator": {
+                  "BaseDamage": {
+                    "Physical": 15
+                  }
+                },
+                "DamageEffects": {
+                  "WorldSoundEventId": "Electric_Zap"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "ParticleColor": "#ff0000",
+    "VariantRotation": "DoublePipe",
+    "Gathering": {
+      "UseDefaultDropWhenPlaced": true,
+      "Breaking": {
+        "Quantity": 0,
+        "GatherType": "Rocks"
+      }
+    },
+    "Particles": [
+      {
+        "SystemId": "Spark",
+        "Color": "#ffffff",
+        "Scale": 0.5
+      }
+    ]
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Trap"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Live_Wires.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

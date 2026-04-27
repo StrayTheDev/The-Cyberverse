@@ -1,0 +1,58 @@
+{
+  "TranslationProperties": {
+    "Name": "Circuit Board (Dark)"
+  },
+  "Icon": "Icons/ItemsGenerated/Circuit_Board_Dark.png",
+  "BlockType": {
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "ItemId": "Circuit_Board_Dark"
+      }
+    },
+    "BlockParticleSetId": "Metal",
+    "BlockSoundSetId": "Metal",
+    "ParticleColor": "#009700",
+    "Textures": [
+      {
+        "All": "BlockTextures/circuitBoard/Circuit_Board_Dark_0.png",
+        "Weight": 1
+      },
+      {
+        "All": "BlockTextures/circuitBoard/Circuit_Board_Dark_1.png"
+      },
+      {
+        "All": "BlockTextures/circuitBoard/Circuit_Board_Dark_2.png"
+      },
+      {
+        "All": "BlockTextures/circuitBoard/Circuit_Board_Dark_3.png"
+      },
+      {
+        "All": "BlockTextures/circuitBoard/Circuit_Board_Dark_4.png"
+      },
+      {
+        "All": "BlockTextures/circuitBoard/Circuit_Board_Dark_5.png"
+      }
+    ],
+    "Material": "Solid"
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Set": "Circuit_Board",
+  "Parent": "Rock_Gold_Brick_Smooth",
+  "Tags": {
+    "Family": [
+      "Gold"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/NPC/block_break.ogg"
+      ],
+      "RandomSettings": {
+        "MinVolume": -9.6,
+        "MaxVolume": 0,
+        "MinPitch": -8.208,
+        "MaxPitch": 0,
+        "MaxStartOffset": 94489.28
+      }
+    }
+  ]
+}

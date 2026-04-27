@@ -1,0 +1,73 @@
+{
+  "TranslationProperties": {
+    "Name": "Errore"
+  },
+  "Icon": "Icons/ItemsGenerated/Errore_Block.png",
+  "BlockType": {
+    "Material": "Solid",
+    "Group": "Stone",
+    "BlockSoundSetId": "Cyberstone",
+    "Opacity": "Solid",
+    "CubeShadingMode": "Fullbright",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "DropList": {
+          "Container": {
+            "Type": "Multiple",
+            "Containers": [
+              {
+                "Type": "Single",
+                "Item": {
+                  "ItemId": "Rock_Stone_Cyberverse"
+                }
+              },
+              {
+                "Type": "Single",
+                "Item": {
+                  "ItemId": "Errore"
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Particles": [
+      {
+        "SystemId": "Glitch",
+        "Scale": 1.3,
+        "TargetEntityPart": "Self",
+        "PositionOffset": {
+          "Y": 0.5
+        },
+        "Color": "#ffffff"
+      }
+    ],
+    "DrawType": "CubeWithModel",
+    "CustomModel": "Resources/Ores/Ore_Large.blockymodel"
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Ore"
+    ],
+    "Family": [
+      "Copper"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "MaxStack": 100
+}

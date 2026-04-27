@@ -1,0 +1,9 @@
+{
+  "Type": "Simple",
+  "Effects": {
+    "ItemAnimationId": "Spit"
+  },
+  "$Comment": "Prepare Delay",
+  "RunTime": 0.333,
+  "Next": "Virus_Projectile"
+}

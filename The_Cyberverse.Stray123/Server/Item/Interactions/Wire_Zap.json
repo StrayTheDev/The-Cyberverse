@@ -1,0 +1,19 @@
+{
+  "Type": "RunOnBlockTypes",
+  "Range": 2,
+  "Interactions": {
+    "Interactions": [
+      {
+        "Type": "DestroyBlock",
+        "Next": {
+          "Type": "RunRootInteraction",
+          "RootInteraction": "Wire_Zap"
+        }
+      }
+    ]
+  },
+  "BlockSets": [
+    "Circuit_Wire"
+  ],
+  "MaxCount": 100
+}

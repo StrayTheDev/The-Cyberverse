@@ -1,0 +1,26 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/NPC/block_break.ogg"
+      ],
+      "RandomSettings": {
+        "MinVolume": 0,
+        "MaxVolume": 5.96,
+        "MinPitch": -1.248,
+        "MaxPitch": 1.968
+      }
+    },
+    {
+      "Files": [
+        "Sounds/Blocks/Metal/Metal_Break_01.ogg"
+      ],
+      "RandomSettings": {
+        "MinVolume": -11.6,
+        "MaxVolume": 0.001,
+        "MinPitch": -1.872,
+        "MaxPitch": 1.824
+      }
+    }
+  ]
+}

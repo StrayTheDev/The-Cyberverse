@@ -1,0 +1,91 @@
+{
+  "TranslationProperties": {
+    "Name": "Fiber-Optic Disc"
+  },
+  "ItemLevel": 10,
+  "Icon": "Icons/ItemsGenerated/Wood_Fiber_Optic_Disc.png",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "PlayerAnimationsId": "Block",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "CustomModel": "Blocks/Structures/Base_Shapes/HalfBlock.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/disc.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Block_Half",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "ItemId": "Spaghetti_Code",
+        "Quantity": 0
+      }
+    },
+    "VariantRotation": "DoublePipe",
+    "RandomRotation": "YawStep90",
+    "BlockParticleSetId": "Glass",
+    "BlockSoundSetId": "Stone",
+    "Group": "Stone",
+    "State": {
+      "Definitions": {
+        "Block": {
+          "Material": "Solid",
+          "DrawType": "Cube",
+          "HitboxType": "Full",
+          "Textures": [
+            {
+              "All": "BlockTextures/Rock_Marble_Cobble.png",
+              "Weight": 1
+            }
+          ],
+          "Supporting": {
+            "BlockSides": [
+              {}
+            ]
+          }
+        }
+      }
+    },
+    "ParticleColor": "#00ffff",
+    "CubeShadingMode": "Fullbright",
+    "MaxSupportDistance": 3,
+    "SupportDropType": "Break",
+    "SupportsRequiredFor": "Any",
+    "Support": {
+      "BlockSides": [
+        {
+          "AllowSupportPropagation": true,
+          "BlockTypeId": "Wood_Fiber_Optic_Trunk",
+          "MatchSelf": "Ignored"
+        }
+      ]
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ],
+    "Family": [
+      "Marble"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "TranslationProperties": {
+    "Name": "Firewall"
+  },
+  "Icon": "Icons/ItemsGenerated/Firewall.png",
+  "Categories": [
+    "Blocks.Fluids"
+  ],
+  "Interactions": {
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "PlaceBlock"
+        }
+      ]
+    },
+    "Held": {
+      "Interactions": [
+        {
+          "Type": "RunOnBlockTypes",
+          "MaxCount": 127,
+          "Range": 4,
+          "Interactions": {
+            "Interactions": [
+              {
+                "Type": "ChangeState",
+                "Changes": {
+                  "default": "Off"
+                },
+                "UpdateBlockState": true
+              }
+            ]
+          },
+          "BlockSets": [
+            "Firewall"
+          ]
+        }
+      ]
+    }
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Effect": [
+      "Slime"
+    ],
+    "Opacity": "Semitransparent",
+    "DamageToEntities": 3,
+    "Light": {
+      "Color": "#e90"
+    },
+    "Flags": {},
+    "BlockParticleSetId": "Metal",
+    "Textures": [
+      {
+        "Weight": 1,
+        "All": "BlockTextures/Firewall/Firewall_0.png"
+      },
+      {
+        "All": "BlockTextures/Firewall/Firewall_1.png",
+        "Weight": 3
+      }
+    ],
+    "ParticleColor": "#f8b73f",
+    "CubeShadingMode": "Fullbright",
+    "BlockSoundSetId": "Empty",
+    "Interactions": {
+      "Collision": {
+        "Cooldown": {
+          "Id": "BurnEffect",
+          "Cooldown": 1
+        },
+        "Interactions": [
+          {
+            "Type": "Condition",
+            "RequiredGameMode": "Adventure",
+            "Next": {
+              "Type": "ApplyEffect",
+              "EffectId": {
+                "Duration": 1,
+                "OverlapBehavior": "Overwrite",
+                "ApplicationEffects": {
+                  "HorizontalSpeedMultiplier": 0.5
+                }
+              },
+              "Next": {
+                "Type": "ApplyEffect",
+                "EffectId": "Lava_Burn"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "RequiresAlphaBlending": true,
+    "State": {
+      "Definitions": {
+        "Off": {
+          "DrawType": "Empty",
+          "Material": "Empty",
+          "DamageToEntities": 0,
+          "Interactions": {
+            "Collision": {
+              "Interactions": [
+                {
+                  "Type": "Simple"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "Gathering": {
+      "Physics": {
+        "DropList": "Nothing"
+      }
+    }
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Material": [
+      "Fluid"
+    ]
+  },
+  "MaxStack": 1,
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

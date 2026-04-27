@@ -1,0 +1,42 @@
+{
+  "TranslationProperties": {
+    "Name": "Computer Casing"
+  },
+  "Icon": "Icons/ItemsGenerated/Computer_Casing.png",
+  "Tags": {
+    "Family": [
+      "Gold"
+    ],
+    "Type": [
+      "Rock"
+    ]
+  },
+  "Parent": "Rock_Gold_Brick",
+  "BlockType": {
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "BlockParticleSetId": "Metal",
+    "BlockSoundSetId": "Metal",
+    "ParticleColor": "#373737",
+    "Textures": [
+      {
+        "All": "BlockTextures/Computer_Casing.png"
+      }
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

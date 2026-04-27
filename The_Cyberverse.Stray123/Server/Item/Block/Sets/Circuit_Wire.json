@@ -1,0 +1,5 @@
+{
+  "IncludeBlockTypes": [
+    "Circuit_Wire"
+  ]
+}

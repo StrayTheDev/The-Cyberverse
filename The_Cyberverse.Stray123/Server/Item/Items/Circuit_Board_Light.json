@@ -1,0 +1,64 @@
+{
+  "TranslationProperties": {
+    "Name": "Circuit Board (Light)"
+  },
+  "Icon": "Icons/ItemsGenerated/Circuit_Board_Light.png",
+  "Tags": {
+    "Family": [
+      "Gold"
+    ],
+    "Type": [
+      "Rock"
+    ]
+  },
+  "BlockType": {
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "ItemId": "Circuit_Board_Light"
+      }
+    },
+    "BlockParticleSetId": "Metal",
+    "BlockSoundSetId": "Metal",
+    "ParticleColor": "#00ff00",
+    "Textures": [
+      {
+        "All": "BlockTextures/circuitBoard/Circuit_Board_Light_0.png",
+        "Weight": 1
+      },
+      {
+        "All": "BlockTextures/circuitBoard/Circuit_Board_Light_1.png"
+      },
+      {
+        "All": "BlockTextures/circuitBoard/Circuit_Board_Light_2.png"
+      },
+      {
+        "All": "BlockTextures/circuitBoard/Circuit_Board_Light_3.png"
+      },
+      {
+        "All": "BlockTextures/circuitBoard/Circuit_Board_Light_4.png"
+      },
+      {
+        "All": "BlockTextures/circuitBoard/Circuit_Board_Light_5.png"
+      },
+      {
+        "All": "BlockTextures/circuitBoard/Circuit_Board_Light_6.png"
+      }
+    ],
+    "Material": "Solid",
+    "Parent": "Rock_Gold_Brick_Smooth"
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Parent": "Rock_Gold_Brick_Smooth"
+}

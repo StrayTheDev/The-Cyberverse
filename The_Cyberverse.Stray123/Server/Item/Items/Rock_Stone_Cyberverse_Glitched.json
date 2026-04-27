@@ -1,0 +1,79 @@
+{
+  "ItemLevel": 10,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/Rock_Stone_Cyberverse.png",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Rock_Stone",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Stone",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "ItemId": "Rock_Stone_Cyberverse"
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "Textures": [
+      {
+        "All": "BlockTextures/Rock_Stone_Cyberverse_Glitched_0.png",
+        "Weight": 1
+      },
+      {
+        "All": "BlockTextures/Rock_Stone_Cyberverse_Glitched_1.png"
+      },
+      {
+        "All": "BlockTextures/Rock_Stone_Cyberverse_Glitched_2.png"
+      },
+      {
+        "All": "BlockTextures/Rock_Stone_Cyberverse_Glitched_3.png"
+      }
+    ],
+    "ParticleColor": "#000000",
+    "BlockSoundSetId": "Cyberstone",
+    "Aliases": [
+      "stone",
+      "stone00"
+    ],
+    "BlockBreakingDecalId": "Breaking_Decals_Rock",
+    "BiomeTint": 100,
+    "CubeShadingMode": "Reflective",
+    "RandomTickProcedure": {
+      "Type": "ChangeIntoBlock",
+      "TargetBlock": "Rock_Stone_Cyberverse"
+    }
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Rock"
+    },
+    {
+      "Id": "Rock_Stone"
+    }
+  ],
+  "Tags": {
+    "Type": [
+      "Rock"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "TranslationProperties": {
+    "Name": "Cyberstone"
+  }
+}

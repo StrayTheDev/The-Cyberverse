@@ -1,0 +1,60 @@
+{
+  "TranslationProperties": {
+    "Name": "Live Wires"
+  },
+  "BlockType": {
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Foliage/Grass/Dense_Small_3Rows.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/neon_wires.png",
+        "Weight": 1
+      }
+    ],
+    "Flags": {},
+    "RandomRotation": "YawStep90",
+    "HitboxType": "Block_Three_Quarter",
+    "BlockParticleSetId": "Tar",
+    "BlockSoundSetId": "Metal",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "ParticleColor": "#ff0000",
+    "VariantRotation": "DoublePipe",
+    "Gathering": {
+      "UseDefaultDropWhenPlaced": true,
+      "Breaking": {
+        "Quantity": 0,
+        "GatherType": "Rocks"
+      }
+    },
+    "Effect": [
+      "WindFractal"
+    ],
+    "CubeShadingMode": "Fullbright"
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Trap"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Plant_Wires_Glow.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}
