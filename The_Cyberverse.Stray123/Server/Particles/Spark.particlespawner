@@ -1,0 +1,118 @@
+{
+  "RenderMode": "Erosion",
+  "EmitOffset": {
+    "X": {
+      "Min": -0.3,
+      "Max": 0.3
+    },
+    "Y": {
+      "Min": -0.1,
+      "Max": 0.1
+    },
+    "Z": {
+      "Min": -0.3,
+      "Max": 0.3
+    }
+  },
+  "ParticleRotationInfluence": "Billboard",
+  "LinearFiltering": true,
+  "LightInfluence": 0.0,
+  "ParticleRotateWithSpawner": false,
+  "TrailSpawnerPositionMultiplier": 1,
+  "TrailSpawnerRotationMultiplier": 1,
+  "MaxConcurrentParticles": 10,
+  "ParticleLifeSpan": {
+    "Min": 0.3333333333333333,
+    "Max": 0.8
+  },
+  "SpawnRate": {
+    "Min": 15,
+    "Max": 20
+  },
+  "InitialVelocity": {
+    "Speed": {
+      "Min": 0.06,
+      "Max": 0.06
+    },
+    "Yaw": {
+      "Min": 0,
+      "Max": 0
+    },
+    "Pitch": {
+      "Min": 90,
+      "Max": 90
+    }
+  },
+  "Attractors": [
+    {
+      "DampingMultiplier": {
+        "X": 0.7350918906249999,
+        "Y": 0.7350918906249999,
+        "Z": 0.7350918906249999
+      }
+    }
+  ],
+  "TotalParticles": {
+    "Min": -1,
+    "Max": -1
+  },
+  "Particle": {
+    "Texture": "Particles/Textures/Basic/Star2.png",
+    "ScaleRatioConstraint": "OneToOne",
+    "Animation": {
+      "0": {
+        "Scale": {
+          "X": {
+            "Min": 1,
+            "Max": 5
+          },
+          "Y": {
+            "Min": 1,
+            "Max": 5
+          }
+        },
+        "Opacity": 0
+      },
+      "2": {
+        "Scale": {
+          "X": {
+            "Min": 1,
+            "Max": 5
+          },
+          "Y": {
+            "Min": 1,
+            "Max": 5
+          }
+        },
+        "Opacity": 1
+      },
+      "20": {
+        "Scale": {
+          "X": {
+            "Min": 1,
+            "Max": 5
+          },
+          "Y": {
+            "Min": 1,
+            "Max": 5
+          }
+        },
+        "Opacity": 0
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": {
+        "X": {
+          "Min": 0.01,
+          "Max": 0.1
+        },
+        "Y": {
+          "Min": 0.1,
+          "Max": 0.2
+        }
+      },
+      "Opacity": 0.576
+    }
+  },
+  "Shape": "Cube"
+}

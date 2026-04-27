@@ -1,0 +1,14 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Spark",
+      "FixedRotation": true,
+      "PositionOffset": {
+        "X": 0,
+        "Z": 0
+      }
+    }
+  ],
+  "BoundingRadius": 1,
+  "CullDistance": 20
+}

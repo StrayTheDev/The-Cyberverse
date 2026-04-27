@@ -1,0 +1,22 @@
+{
+  "ApplicationEffects": {
+    "EntityBottomTint": "#ff00db",
+    "EntityTopTint": "#ff00f6",
+    "WorldSoundEventId": "Glitch",
+    "FirstPersonParticles": [
+      {
+        "SystemId": "Glitch_Effect",
+        "TargetEntityPart": "Self",
+        "Scale": 1,
+        "PositionOffset": {
+          "Y": 1.5
+        }
+      }
+    ]
+  },
+  "OverlapBehavior": "Overwrite",
+  "RemovalBehavior": "Duration",
+  "Infinite": false,
+  "Debuff": true,
+  "Duration": 1
+}

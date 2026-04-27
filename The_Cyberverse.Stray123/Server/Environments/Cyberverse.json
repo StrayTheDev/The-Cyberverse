@@ -1,0 +1,253 @@
+{
+  "BlockModificationAllowed": true,
+  "Tags": {
+    "Cyberverse": [
+      "Cyberverse"
+    ]
+  },
+  "WaterTint": "#286cc3",
+  "WeatherForecastSeed": "1",
+  "WeatherForecasts": {
+    "0": [
+      {
+        "WeatherId": "Cyberverse_Normal",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Cyberverse_Storm",
+        "Weight": 20
+      }
+    ],
+    "1": [
+      {
+        "WeatherId": "Cyberverse_Normal",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Cyberverse_Storm",
+        "Weight": 20
+      }
+    ],
+    "2": [
+      {
+        "WeatherId": "Cyberverse_Normal",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Cyberverse_Storm",
+        "Weight": 20
+      }
+    ],
+    "3": [
+      {
+        "WeatherId": "Cyberverse_Normal",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Cyberverse_Storm",
+        "Weight": 20
+      }
+    ],
+    "4": [
+      {
+        "WeatherId": "Cyberverse_Normal",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Cyberverse_Storm",
+        "Weight": 20
+      }
+    ],
+    "5": [
+      {
+        "WeatherId": "Cyberverse_Normal",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Cyberverse_Storm",
+        "Weight": 20
+      }
+    ],
+    "6": [
+      {
+        "WeatherId": "Cyberverse_Normal",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Cyberverse_Storm",
+        "Weight": 10
+      }
+    ],
+    "7": [
+      {
+        "WeatherId": "Cyberverse_Normal",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Cyberverse_Storm",
+        "Weight": 10
+      }
+    ],
+    "8": [
+      {
+        "WeatherId": "Cyberverse_Normal",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Cyberverse_Storm",
+        "Weight": 10
+      }
+    ],
+    "9": [
+      {
+        "WeatherId": "Cyberverse_Normal",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Cyberverse_Storm",
+        "Weight": 10
+      }
+    ],
+    "10": [
+      {
+        "WeatherId": "Cyberverse_Normal",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Cyberverse_Storm",
+        "Weight": 10
+      }
+    ],
+    "11": [
+      {
+        "WeatherId": "Cyberverse_Normal",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Cyberverse_Storm",
+        "Weight": 10
+      }
+    ],
+    "12": [
+      {
+        "WeatherId": "Cyberverse_Normal",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Cyberverse_Storm",
+        "Weight": 10
+      }
+    ],
+    "13": [
+      {
+        "WeatherId": "Cyberverse_Normal",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Cyberverse_Storm",
+        "Weight": 10
+      }
+    ],
+    "14": [
+      {
+        "WeatherId": "Cyberverse_Normal",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Cyberverse_Storm",
+        "Weight": 10
+      }
+    ],
+    "15": [
+      {
+        "WeatherId": "Cyberverse_Normal",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Cyberverse_Storm",
+        "Weight": 10
+      }
+    ],
+    "16": [
+      {
+        "WeatherId": "Cyberverse_Normal",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Cyberverse_Storm",
+        "Weight": 10
+      }
+    ],
+    "17": [
+      {
+        "WeatherId": "Cyberverse_Normal",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Cyberverse_Storm",
+        "Weight": 10
+      }
+    ],
+    "18": [
+      {
+        "WeatherId": "Cyberverse_Normal",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Cyberverse_Storm",
+        "Weight": 10
+      }
+    ],
+    "19": [
+      {
+        "WeatherId": "Cyberverse_Normal",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Cyberverse_Storm",
+        "Weight": 10
+      }
+    ],
+    "20": [
+      {
+        "WeatherId": "Cyberverse_Normal",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Cyberverse_Storm",
+        "Weight": 20
+      }
+    ],
+    "21": [
+      {
+        "WeatherId": "Cyberverse_Normal",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Cyberverse_Storm",
+        "Weight": 20
+      }
+    ],
+    "22": [
+      {
+        "WeatherId": "Cyberverse_Normal",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Cyberverse_Storm",
+        "Weight": 20
+      }
+    ],
+    "23": [
+      {
+        "WeatherId": "Cyberverse_Normal",
+        "Weight": 50
+      },
+      {
+        "WeatherId": "Cyberverse_Storm",
+        "Weight": 20
+      }
+    ]
+  },
+  "SpawnDensity": 0.1
+}

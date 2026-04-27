@@ -1,0 +1,95 @@
+{
+  "Type": "NoiseRange",
+  "Density": {
+    "Type": "Imported",
+    "Name": "Cyberverse-Map"
+  },
+  "SpawnPositions": {
+    "Type": "List",
+    "Positions": [
+      {
+        "X": 0,
+        "Z": 0,
+        "Y": 159
+      }
+    ]
+  },
+  "Framework": [
+    {
+      "Type": "Positions",
+      "Entries": [
+        {
+          "Name": "Spawns",
+          "Positions": {
+            "Type": "List",
+            "ExportAs": "Spawns",
+            "Positions": [
+              {
+                "X": 0,
+                "Y": 200,
+                "Z": 0
+              },
+              {
+                "X": 30,
+                "Y": 200,
+                "Z": 0
+              },
+              {
+                "X": 10,
+                "Y": 200,
+                "Z": 20
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Type": "DecimalConstants",
+      "Entries": [
+        {
+          "Name": "Base",
+          "Value": 100
+        },
+        {
+          "Name": "Water",
+          "Value": 100
+        },
+        {
+          "Name": "Bedrock",
+          "Value": 0
+        }
+      ]
+    }
+  ],
+  "DefaultBiome": "acid",
+  "MaxBiomeEdgeDistance": 15,
+  "Biomes": [
+    {
+      "Min": 0,
+      "Max": 2,
+      "Biome": "circuit"
+    },
+    {
+      "Biome": "grid",
+      "Min": 2,
+      "Max": 4
+    },
+    {
+      "Biome": "corrupted",
+      "Min": 4,
+      "Max": 5
+    },
+    {
+      "Biome": "plains",
+      "Min": 5,
+      "Max": 7
+    },
+    {
+      "Biome": "acid",
+      "Min": -11,
+      "Max": -9
+    }
+  ],
+  "DefaultTransitionDistance": 2
+}

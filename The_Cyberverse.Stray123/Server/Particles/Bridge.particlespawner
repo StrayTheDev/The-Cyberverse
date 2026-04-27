@@ -1,0 +1,74 @@
+{
+  "RenderMode": "BlendLinear",
+  "EmitOffset": {
+    "X": {
+      "Min": 0,
+      "Max": 0.8
+    },
+    "Y": {
+      "Min": 0,
+      "Max": 0.2
+    },
+    "Z": {
+      "Min": 0,
+      "Max": 0.8
+    }
+  },
+  "ParticleRotationInfluence": "None",
+  "ParticleLifeSpan": {
+    "Min": 4.0,
+    "Max": 5.0
+  },
+  "SpawnRate": {
+    "Min": 0,
+    "Max": 1
+  },
+  "Particle": {
+    "Texture": "Particles/bridge.png",
+    "ScaleRatioConstraint": "OneToOne",
+    "UVOption": "None",
+    "SoftParticles": "Disable",
+    "Animation": {
+      "0": {
+        "Scale": {
+          "X": {
+            "Min": 0.7,
+            "Max": 1.6
+          },
+          "Y": {
+            "Min": 0.7,
+            "Max": 1.6
+          }
+        },
+        "Opacity": 0,
+        "Color": "#3cff00",
+        "Rotation": {
+          "X": {
+            "Min": 90,
+            "Max": 90
+          }
+        }
+      },
+      "10": {
+        "Opacity": 0.65
+      },
+      "90": {
+        "Opacity": 0.65
+      },
+      "100": {
+        "Opacity": 0
+      }
+    }
+  },
+  "IsLowRes": false,
+  "Shape": "Cube",
+  "InitialVelocity": {
+    "Yaw": {
+      "Max": 360
+    },
+    "Speed": {
+      "Min": -0.1,
+      "Max": 0.1
+    }
+  }
+}

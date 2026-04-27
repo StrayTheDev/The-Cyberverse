@@ -1,0 +1,73 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Binary",
+      "FixedRotation": true,
+      "SpawnRate": {
+        "Min": 9999,
+        "Max": 9999
+      },
+      "MaxConcurrent": 9999,
+      "LifeSpan": {
+        "Min": 999,
+        "Max": 999
+      }
+    },
+    {
+      "SpawnerId": "Binary",
+      "FixedRotation": true
+    },
+    {
+      "SpawnerId": "Binary",
+      "FixedRotation": true
+    },
+    {
+      "SpawnerId": "Binary",
+      "FixedRotation": true
+    },
+    {
+      "FixedRotation": true,
+      "SpawnerId": "Binary"
+    },
+    {
+      "SpawnerId": "Binary",
+      "FixedRotation": true
+    },
+    {
+      "SpawnerId": "Binary",
+      "FixedRotation": true
+    },
+    {
+      "SpawnerId": "Binary",
+      "FixedRotation": true
+    },
+    {
+      "SpawnerId": "Binary",
+      "FixedRotation": true
+    },
+    {
+      "SpawnerId": "Binary",
+      "FixedRotation": true
+    },
+    {
+      "SpawnerId": "Binary",
+      "FixedRotation": true
+    },
+    {
+      "SpawnerId": "BinarySingle",
+      "FixedRotation": true
+    },
+    {
+      "SpawnerId": "BinarySingle",
+      "FixedRotation": true
+    },
+    {
+      "SpawnerId": "BinarySingle",
+      "FixedRotation": true
+    },
+    {
+      "SpawnerId": "BinarySingle",
+      "FixedRotation": true
+    }
+  ]
+}

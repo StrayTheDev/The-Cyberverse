@@ -1,0 +1,13 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Torch_Fire_Up",
+      "MaxConcurrent": 99999
+    },
+    {
+      "SpawnerId": "BinaryFirewall",
+      "MaxConcurrent": 999999
+    }
+  ],
+  "IsImportant": true
+}

@@ -1,0 +1,8 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Bridge",
+      "FixedRotation": true
+    }
+  ]
+}

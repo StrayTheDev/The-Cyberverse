@@ -1,0 +1,12 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Glitch",
+      "MaxConcurrent": 99999,
+      "SpawnRate": {
+        "Min": 500,
+        "Max": 600
+      }
+    }
+  ]
+}

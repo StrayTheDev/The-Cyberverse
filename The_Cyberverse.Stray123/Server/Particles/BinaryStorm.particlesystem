@@ -1,0 +1,16 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Binary",
+      "FixedRotation": true
+    },
+    {
+      "SpawnerId": "Screen",
+      "FixedRotation": true
+    },
+    {
+      "SpawnerId": "BinarySingle",
+      "FixedRotation": true
+    }
+  ]
+}

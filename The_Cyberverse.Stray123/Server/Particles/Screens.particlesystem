@@ -1,0 +1,10 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Screen",
+      "FixedRotation": true
+    }
+  ],
+  "IsImportant": true,
+  "CullDistance": 1024
+}

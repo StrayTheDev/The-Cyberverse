@@ -1,0 +1,105 @@
+{
+  "SkyTopColors": [
+    {
+      "Hour": 0,
+      "Color": "#000000ff"
+    }
+  ],
+  "SkyBottomColors": [
+    {
+      "Hour": 0,
+      "Color": "#00ebffff"
+    }
+  ],
+  "SkySunsetColors": [
+    {
+      "Hour": 0,
+      "Color": "#000000ff"
+    }
+  ],
+  "FogColors": [
+    {
+      "Hour": 0,
+      "Color": "#011100"
+    }
+  ],
+  "FogDensities": [
+    {
+      "Hour": 0,
+      "Value": 0.01
+    },
+    {
+      "Hour": 2,
+      "Value": 0
+    }
+  ],
+  "FogHeightFalloffs": null,
+  "FogDistance": [
+    -128,
+    350
+  ],
+  "FogOptions": {
+    "EffectiveViewDistanceMultiplier": 2
+  },
+  "SunScales": [
+    {
+      "Hour": 0,
+      "Value": 3
+    }
+  ],
+  "Particle": {
+    "SystemId": "BinaryStorm",
+    "Color": "#00ff00",
+    "OvergroundOnly": true,
+    "Scale": 0.8
+  },
+  "SunColors": [
+    {
+      "Hour": 0,
+      "Color": "#00ff00"
+    }
+  ],
+  "SunlightColors": [
+    {
+      "Hour": 0,
+      "Color": "#ffffff"
+    }
+  ],
+  "SunlightDampingMultipliers": [
+    {
+      "Hour": 0,
+      "Value": 0
+    },
+    {
+      "Hour": 4,
+      "Value": 0.7
+    },
+    {
+      "Hour": 23,
+      "Value": 0
+    },
+    {
+      "Hour": 19,
+      "Value": 0.7
+    }
+  ],
+  "SunGlowColors": null,
+  "ColorFilters": null,
+  "Clouds": [
+    {
+      "Colors": [
+        {
+          "Hour": 0,
+          "Color": "#006700ff"
+        }
+      ],
+      "Speeds": [
+        {
+          "Hour": 0,
+          "Value": 1.1
+        }
+      ],
+      "Texture": "Sky/Cyberverse.png"
+    }
+  ]
+}

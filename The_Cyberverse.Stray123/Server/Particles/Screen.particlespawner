@@ -1,0 +1,92 @@
+{
+  "RenderMode": "Erosion",
+  "EmitOffset": {
+    "X": {
+      "Min": 50,
+      "Max": 100
+    },
+    "Y": {
+      "Min": 20,
+      "Max": 100
+    },
+    "Z": {
+      "Min": 50,
+      "Max": 100
+    }
+  },
+  "ParticleRotationInfluence": "BillboardVelocity",
+  "MaxConcurrentParticles": 10,
+  "ParticleLifeSpan": {
+    "Min": 4.0,
+    "Max": 5.0
+  },
+  "SpawnRate": {
+    "Min": 0,
+    "Max": 1
+  },
+  "Particle": {
+    "Texture": "Particles/simon.png",
+    "ScaleRatioConstraint": "OneToOne",
+    "Animation": {
+      "0": {
+        "Opacity": 0.144,
+        "Scale": {
+          "X": {
+            "Min": 0.1,
+            "Max": 0.5
+          },
+          "Y": {
+            "Min": 0.2,
+            "Max": 0.8
+          }
+        },
+        "Color": "#00ff00",
+        "Rotation": {
+          "Y": {
+            "Max": 360
+          }
+        },
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 8
+        }
+      },
+      "10": {
+        "Scale": {
+          "X": {
+            "Min": 2,
+            "Max": 8
+          },
+          "Y": {
+            "Min": 2,
+            "Max": 8
+          }
+        }
+      }
+    },
+    "InitialAnimationFrame": {
+      "Opacity": 1
+    },
+    "UVOption": "None",
+    "SoftParticles": "Disable",
+    "FrameSize": {
+      "Width": 80,
+      "Height": 47
+    }
+  },
+  "IsLowRes": false,
+  "Shape": "Cube",
+  "InitialVelocity": {
+    "Yaw": {
+      "Max": 360
+    },
+    "Pitch": {
+      "Max": 90,
+      "Min": 90
+    },
+    "Speed": {
+      "Min": -3,
+      "Max": 3
+    }
+  }
+}

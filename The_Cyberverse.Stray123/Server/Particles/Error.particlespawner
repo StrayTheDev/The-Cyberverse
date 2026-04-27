@@ -1,0 +1,66 @@
+{
+  "RenderMode": "BlendLinear",
+  "EmitOffset": {
+    "X": {
+      "Min": 0,
+      "Max": 1
+    },
+    "Y": {
+      "Min": 0,
+      "Max": 1
+    },
+    "Z": {
+      "Min": 0,
+      "Max": 1
+    }
+  },
+  "ParticleRotationInfluence": "Velocity",
+  "MaxConcurrentParticles": 250,
+  "ParticleLifeSpan": {
+    "Min": 4.0,
+    "Max": 5.0
+  },
+  "SpawnRate": {
+    "Min": 10,
+    "Max": 10
+  },
+  "InitialVelocity": {
+    "Speed": {
+      "Min": 0,
+      "Max": 0.4
+    },
+    "Pitch": {
+      "Min": 0,
+      "Max": 180
+    },
+    "Yaw": {
+      "Min": 0,
+      "Max": 360
+    }
+  },
+  "Particle": {
+    "ScaleRatioConstraint": "OneToOne",
+    "InitialAnimationFrame": {
+      "Opacity": 1
+    },
+    "UVOption": "None",
+    "SoftParticles": "Disable",
+    "Texture": "Particles/error.png",
+    "Animation": {
+      "0": {
+        "Scale": {
+          "X": {
+            "Min": 0,
+            "Max": 10
+          }
+        }
+      }
+    }
+  },
+  "IsLowRes": true,
+  "Shape": "Cube",
+  "IntersectionHighlight": {
+    "HighlightColor": "#ff00ff",
+    "HighlightThreshold": 0.52
+  }
+}

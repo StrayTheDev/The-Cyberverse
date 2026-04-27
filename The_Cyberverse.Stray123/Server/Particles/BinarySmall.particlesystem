@@ -1,0 +1,8 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Binary_Small",
+      "FixedRotation": true
+    }
+  ]
+}

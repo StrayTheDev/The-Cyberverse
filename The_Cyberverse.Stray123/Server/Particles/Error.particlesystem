@@ -1,0 +1,8 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Error",
+      "FixedRotation": true
+    }
+  ]
+}

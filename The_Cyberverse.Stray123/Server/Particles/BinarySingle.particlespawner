@@ -1,0 +1,376 @@
+{
+  "RenderMode": "Erosion",
+  "EmitOffset": {
+    "X": {
+      "Min": 25,
+      "Max": 120
+    },
+    "Y": {
+      "Min": 0,
+      "Max": 50
+    },
+    "Z": {
+      "Min": 25,
+      "Max": 120
+    }
+  },
+  "ParticleRotationInfluence": "BillboardY",
+  "MaxConcurrentParticles": 250,
+  "ParticleLifeSpan": {
+    "Min": 4.0,
+    "Max": 5.0
+  },
+  "SpawnRate": {
+    "Min": 0,
+    "Max": 10
+  },
+  "InitialVelocity": {
+    "Speed": {
+      "Min": -1,
+      "Max": 1
+    },
+    "Pitch": {
+      "Min": 90,
+      "Max": 90
+    }
+  },
+  "Particle": {
+    "Texture": "Particles/particle_binary.png",
+    "FrameSize": {
+      "Width": 32,
+      "Height": 32
+    },
+    "ScaleRatioConstraint": "OneToOne",
+    "Animation": {
+      "0": {
+        "Opacity": 1,
+        "Scale": {
+          "X": {
+            "Min": 0.5,
+            "Max": 2.5
+          },
+          "Y": {
+            "Min": 0.5,
+            "Max": 2.5
+          }
+        },
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "2": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "100": {
+        "Opacity": 1,
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "98": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "96": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "94": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "92": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "90": {
+        "Opacity": 0,
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "88": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "86": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "84": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "82": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "80": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 0
+        }
+      },
+      "78": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "76": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "74": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "72": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "70": {
+        "Opacity": 0.15,
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "68": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "66": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "64": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "62": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "60": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "58": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "56": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "54": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "52": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "50": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        },
+        "Opacity": 0.8
+      },
+      "48": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "46": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "44": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "42": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "40": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "38": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "36": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "34": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "32": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "30": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "28": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "26": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "24": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "22": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "20": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "18": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "16": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "14": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "12": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "10": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        },
+        "Opacity": 0
+      },
+      "8": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "6": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      },
+      "4": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 7
+        }
+      }
+    },
+    "InitialAnimationFrame": {
+      "Opacity": 1
+    },
+    "UVOption": "None",
+    "SoftParticles": "Disable"
+  },
+  "IsLowRes": false,
+  "Shape": "Cube"
+}
